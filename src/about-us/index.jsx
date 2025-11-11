@@ -29,13 +29,13 @@ export default function AboutUs() {
                 <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,white,transparent_60%)]" />
                 <div className="relative max-w-6xl mx-auto py-20 text-center">
                     <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">
-                        Building Products With Describing
+                        You Describe. We Build.
                     </h1>
                     <p className="max-w-2xl mx-auto text-base md:text-lg opacity-90 leading-relaxed">
                         We turn your ideas into impactful digital experiences through expert design and development.
                     </p>
                     <div className="mt-10 flex flex-wrap justify-center gap-4">
-                        <button className="px-6 py-3 rounded-xl bg-white/90 text-blue-700 font-semibold shadow hover:bg-white transition">
+                        <button className="px-6 cursor-pointer py-3 rounded-xl bg-white/90 text-blue-700 font-semibold shadow hover:bg-white transition">
                             Get in Touch
                         </button>
                         <button className="px-6 py-3 rounded-xl backdrop-blur bg-white/10 font-medium border border-white/30 hover:bg-white/20 transition">
@@ -51,10 +51,10 @@ export default function AboutUs() {
                     {stats.map(s => (
                         <div
                             key={s.id}
-                            className="group relative bg-white rounded-xl p-6 shadow hover:shadow-lg transition border border-gray-100"
+                            className="group relative bg-white rounded-xl p-6 shadow  transition border border-gray-100"
                         >
-                            <div className="absolute -inset-px rounded-xl opacity-0 group-hover:opacity-100 bg-gradient-to-r from-blue-50 to-indigo-50 transition" />
-                            <p className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 text-transparent bg-clip-text">
+                            <div className="absolute -inset-px rounded-xl opacity-0  bg-gradient-to-r from-blue-50 to-sky-600 transition" />
+                            <p className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-sky-600 text-transparent bg-clip-text">
                                 {s.value}
                             </p>
                             <p className="mt-1 text-sm font-medium text-gray-600">{s.label}</p>
@@ -72,7 +72,7 @@ export default function AboutUs() {
                             key={v.id}
                             className="relative bg-white rounded-2xl p-7 shadow-sm border border-gray-100 hover:shadow-md transition"
                         >
-                            <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-gradient-to-tr from-blue-600 to-indigo-600 text-white text-sm font-semibold mb-4 shadow">
+                            <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-gradient-to-tr from-blue-600 to-sky-600 text-white text-sm font-semibold mb-4 shadow">
                                 {v.title[0]}
                             </div>
                             <h3 className="font-semibold text-gray-800 mb-2">{v.title}</h3>
@@ -86,12 +86,12 @@ export default function AboutUs() {
             <section className="max-w-6xl mx-auto mb-24">
                 <h2 className="text-2xl font-bold mb-8 text-gray-800">Journey</h2>
                 <div className="relative">
-                    <div className="absolute left-4 top-0 bottom-0 w-px bg-gradient-to-b from-blue-500 via-indigo-500 to-purple-500" />
+                    <div className="absolute left-4 top-0 bottom-0 w-px bg-gradient-to-b from-blue-500 via-indigo-500 to-sky-600" />
                     <ul className="space-y-10">
                         {timeline.map(item => (
                             <li key={item.year} className="flex gap-6">
                                 <div className="relative">
-                                    <div className="mt-1 w-8 h-8 rounded-full flex items-center justify-center bg-gradient-to-br from-blue-600 to-indigo-600 text-white text-sm font-semibold shadow">
+                                    <div className="mt-1 w-8 h-8 rounded-full flex items-center justify-center bg-gradient-to-br from-blue-600 to-sky-600 text-white text-sm font-semibold shadow">
                                         {item.year.slice(-2)}
                                     </div>
                                 </div>
@@ -114,11 +114,8 @@ export default function AboutUs() {
                     From concept validation to iterative scaling, we partner with teams serious about quality and velocity.
                 </p>
                 <div className="flex flex-wrap justify-center gap-4">
-                    <button className="px-6 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold shadow hover:brightness-110 transition">
+                    <button className="px-6 cursor-pointer py-3 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold shadow hover:brightness-110 transition">
                         Start a Conversation
-                    </button>
-                    <button className="px-6 py-3 rounded-xl bg-gray-100 text-gray-700 font-medium hover:bg-gray-200 transition">
-                        View Case Studies
                     </button>
                 </div>
             </section>

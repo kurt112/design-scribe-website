@@ -3,52 +3,52 @@ import React, { useState, useMemo } from 'react';
 const team = [
     {
         id: 1,
-        name: 'Jane Doe',
-        role: 'Founder',
+        name: 'Kurt Lupin Orioque',
+        role: 'Founder/CEO',
         bio: 'Drives vision, culture, and long term strategy.',
-        skills: ['Leadership', 'Growth'],
-        avatar: 'https://api.dicebear.com/7.x/initials/svg?seed=Jane+Doe'
+        skills: ['Leadership', 'Growth', 'Technical Skills'],
+        avatar: '/team-members-pictures/kurt-picture.jpg'
     },
     {
         id: 2,
-        name: 'John Smith',
-        role: 'Engineering',
-        bio: 'Architects scalable systems and tooling.',
-        skills: ['Architecture', 'APIs'],
-        avatar: 'https://api.dicebear.com/7.x/initials/svg?seed=John+Smith'
+        name: 'Patrick Semilla',
+        role: 'Sales Lead',
+        bio: 'Leads client acquisition and relationship management.',
+        skills: ['Sales', 'CRM'],
+        avatar: 'https://api.dicebear.com/7.x/initials/svg?seed=Patrick+Semilla'
     },
-    {
-        id: 3,
-        name: 'Alice Lee',
-        role: 'Design',
-        bio: 'Owns product design language and accessibility.',
-        skills: ['UI', 'UX', 'A11y'],
-        avatar: 'https://api.dicebear.com/7.x/initials/svg?seed=Alice+Lee'
-    },
-    {
-        id: 4,
-        name: 'Carlos Reyes',
-        role: 'Engineering',
-        bio: 'Optimizes performance and delivery pipelines.',
-        skills: ['DevOps', 'Performance'],
-        avatar: 'https://api.dicebear.com/7.x/initials/svg?seed=Carlos+Reyes'
-    },
-    {
-        id: 5,
-        name: 'Maya Patel',
-        role: 'Product',
-        bio: 'Aligns roadmap with user and business outcomes.',
-        skills: ['Strategy', 'Research'],
-        avatar: 'https://api.dicebear.com/7.x/initials/svg?seed=Maya+Patel'
-    },
-    {
-        id: 6,
-        name: 'Tom Nguyen',
-        role: 'Data',
-        bio: 'Transforms raw data into actionable insights.',
-        skills: ['Analytics', 'ML'],
-        avatar: 'https://api.dicebear.com/7.x/initials/svg?seed=Tom+Nguyen'
-    }
+    // {
+    //     id: 3,
+    //     name: 'Alice Lee',
+    //     role: 'Design',
+    //     bio: 'Owns product design language and accessibility.',
+    //     skills: ['UI', 'UX', 'A11y'],
+    //     avatar: 'https://api.dicebear.com/7.x/initials/svg?seed=Alice+Lee'
+    // },
+    // {
+    //     id: 4,
+    //     name: 'Carlos Reyes',
+    //     role: 'Engineering',
+    //     bio: 'Optimizes performance and delivery pipelines.',
+    //     skills: ['DevOps', 'Performance'],
+    //     avatar: 'https://api.dicebear.com/7.x/initials/svg?seed=Carlos+Reyes'
+    // },
+    // {
+    //     id: 5,
+    //     name: 'Maya Patel',
+    //     role: 'Product',
+    //     bio: 'Aligns roadmap with user and business outcomes.',
+    //     skills: ['Strategy', 'Research'],
+    //     avatar: 'https://api.dicebear.com/7.x/initials/svg?seed=Maya+Patel'
+    // },
+    // {
+    //     id: 6,
+    //     name: 'Tom Nguyen',
+    //     role: 'Data',
+    //     bio: 'Transforms raw data into actionable insights.',
+    //     skills: ['Analytics', 'ML'],
+    //     avatar: 'https://api.dicebear.com/7.x/initials/svg?seed=Tom+Nguyen'
+    // }
 ];
 
 const roles = ['All', ...Array.from(new Set(team.map(t => t.role)))];
@@ -101,7 +101,7 @@ export default function Members() {
                     </p>
                     <div className="w-40 h-2 rounded-full bg-indigo-100 overflow-hidden">
                         <div
-                            className="h-full bg-gradient-to-r from-indigo-600 to-cyan-500 transition-all"
+                            className="h-full bg-gray-600 transition-all"
                             style={{ width: `${(filtered.length / team.length) * 100}%` }}
                         />
                     </div>
@@ -114,9 +114,9 @@ export default function Members() {
                     {filtered.map(m => (
                         <div
                             key={m.id}
-                            className="group relative bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-xl hover:border-indigo-200 transition"
+                            className="group relative cursor-pointer bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-xl hover:border-indigo-200 transition"
                         >
-                            <div className="absolute -inset-px rounded-2xl opacity-0 group-hover:opacity-100 bg-gradient-to-r from-indigo-50 via-blue-50 to-cyan-50 transition" />
+                            <div className="absolute -inset-px rounded-2xl opacity-0  bg-gradient-to-r from-indigo-50 via-blue-50 to-cyan-50 transition" />
                             <div className="flex items-center gap-4 mb-5">
                                 <div className="relative">
                                     <img
@@ -124,7 +124,7 @@ export default function Members() {
                                         alt={m.name}
                                         className="w-16 h-16 rounded-xl ring-2 ring-white shadow-md object-cover"
                                     />
-                                    <span className="absolute -bottom-1 -right-1 w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold bg-gradient-to-br from-indigo-600 to-cyan-500 text-white shadow">
+                                    <span className="absolute -bottom-1 -right-1 w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold bg-gray-600 text-white shadow">
                     {m.name.split(' ').map(n => n[0]).join('').slice(0, 2)}
                   </span>
                                 </div>
@@ -142,47 +142,19 @@ export default function Members() {
                                 {m.skills.map(s => (
                                     <span
                                         key={s}
-                                        className="px-2.5 py-1 text-xs rounded-full bg-gradient-to-r from-indigo-600 to-cyan-500 text-white font-medium shadow-sm"
+                                        className="px-2.5 py-1 text-xs rounded-full bg-gray-600 text-white font-medium shadow-sm"
                                     >
                     {s}
                   </span>
                                 ))}
                             </div>
                             <div className="mt-5 flex items-center justify-between">
-                                <button className="text-xs font-medium text-indigo-600 hover:text-indigo-700 transition">
+                                <button className="text-xs font-medium text-sky-600">
                                     View Profile →
                                 </button>
-                                <div className="flex -space-x-2">
-                                    {[...Array(3)].map((_, i) => (
-                                        <div
-                                            key={i}
-                                            className="w-6 h-6 rounded-full bg-gradient-to-br from-indigo-500 to-cyan-500 text-[10px] flex items-center justify-center text-white shadow ring-2 ring-white"
-                                        >
-                                            {i + 1}
-                                        </div>
-                                    ))}
-                                </div>
                             </div>
                         </div>
                     ))}
-                </div>
-            </section>
-
-            {/* CTA */}
-            <section className="max-w-5xl mx-auto mt-20 rounded-3xl p-10 bg-white shadow-md border border-gray-100 text-center">
-                <h2 className="text-2xl font-bold mb-3 text-gray-800">
-                    Want To Join Us?
-                </h2>
-                <p className="text-sm text-gray-600 max-w-2xl mx-auto mb-6">
-                    We welcome curious builders who care about thoughtful products and sustainable velocity.
-                </p>
-                <div className="flex flex-wrap justify-center gap-4">
-                    <button className="px-6 py-3 rounded-xl bg-gradient-to-r from-indigo-600 to-cyan-500 text-white font-semibold shadow hover:brightness-110 transition">
-                        Open Roles
-                    </button>
-                    <button className="px-6 py-3 rounded-xl bg-gray-100 text-gray-700 font-medium hover:bg-gray-200 transition">
-                        Culture Deck
-                    </button>
                 </div>
             </section>
         </div>

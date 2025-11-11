@@ -16,8 +16,7 @@ function NavBar(){
                 <div className="flex gap-2">
                     <NavLink to="/" className={linkClass} end>About</NavLink>
                     <NavLink to="/members" className={linkClass}>Members</NavLink>
-                    <NavLink to="/projects" className={linkClass}>Projects</NavLink>
-                    <NavLink to="/clients" className={linkClass}>Clients</NavLink>
+                    {/*<NavLink to="/clients" className={linkClass}>Clients</NavLink>*/}
                 </div>
             </div>
         </nav>
