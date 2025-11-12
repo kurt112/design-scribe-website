@@ -35,9 +35,9 @@ export default function AboutUs() {
                         We turn your ideas into impactful digital experiences through expert design and development.
                     </p>
                     <div className="mt-10 flex flex-wrap justify-center gap-4">
-                        <button className="px-6 cursor-pointer py-3 rounded-xl bg-white/90 text-blue-700 font-semibold shadow hover:bg-white transition">
+                        <a className="px-6 cursor-pointer py-3 rounded-xl bg-white/90 text-blue-700 font-semibold shadow hover:bg-white transition" href="/contact-us">
                             Get in Touch
-                        </button>
+                        </a>
                         <button className="px-6 py-3 rounded-xl backdrop-blur bg-white/10 font-medium border border-white/30 hover:bg-white/20 transition">
                             Our Process
                         </button>
@@ -114,9 +114,9 @@ export default function AboutUs() {
                     From concept validation to iterative scaling, we partner with teams serious about quality and velocity.
                 </p>
                 <div className="flex flex-wrap justify-center gap-4">
-                    <button className="px-6 cursor-pointer py-3 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold shadow hover:brightness-110 transition">
+                    <a href="/contact-us" className="px-6 cursor-pointer py-3 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold shadow hover:brightness-110 transition">
                         Start a Conversation
-                    </button>
+                    </a>
                 </div>
             </section>
         </div>

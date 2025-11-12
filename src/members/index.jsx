@@ -11,6 +11,14 @@ const team = [
     },
     {
         id: 2,
+        name: 'Jea Maureen Geulen',
+        role: 'COO',
+        bio: 'Drives revenue growth by building strong client relationships and delivering tailored solutions that exceed expectations.',
+        skills: ['Sales', 'Marketing', 'Trading', 'Presentation'],
+        avatar: '/team-members-pictures/jea-picture.jpg'
+    },
+    {
+        id: 3,
         name: 'Patrick Semilla',
         role: 'Lead Quality Assurance',
         bio: 'Ensures product excellence through rigorous testing and continuous process improvement.',
@@ -18,21 +26,13 @@ const team = [
         avatar: '/team-members-pictures/patrick-picture.jpg'
     },
     {
-        id: 3,
+        id: 4,
         name: 'Aaron Paul Habel',
         role: 'Quality Assurance Engineer',
         bio: 'Delivers reliable products by designing and executing thorough test plans, ensuring quality at every stage of development.',
         skills: ['Testing', 'Automation', 'Attention to Detail'],
         avatar: '/team-members-pictures/habel-picture.png'
-    },
-    // {
-    //     id: 3,
-    //     name: 'Alice Lee',
-    //     role: 'Design',
-    //     bio: 'Owns product design language and accessibility.',
-    //     skills: ['UI', 'UX', 'A11y'],
-    //     avatar: 'https://api.dicebear.com/7.x/initials/svg?seed=Alice+Lee'
-    // },
+    }
     // {
     //     id: 4,
     //     name: 'Carlos Reyes',

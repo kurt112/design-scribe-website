@@ -5,6 +5,7 @@ import AboutUs from "./about-us/index.jsx";
 import Members from "./members/index.jsx";
 import Clients from "./clients/index.jsx";
 import Footer from "./footer/index.jsx";
+import ContactUs from "./contact-us/index.jsx";
 
 function App() {
     const [count, setCount] = useState(0)
@@ -15,7 +16,8 @@ function App() {
             <Routes>
                 <Route path="/" element={<AboutUs/>}/>
                 <Route path="/members" element={<Members/>}/>
-                <Route path="/clients" element={<Clients/>}/>
+                <Route path="/contact-us" element={<ContactUs/>}/>
+                {/*<Route path="/clients" element={<Clients/>}/>*/}
             </Routes>
 
             <Footer/>

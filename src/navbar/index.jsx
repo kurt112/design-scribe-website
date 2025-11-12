@@ -14,9 +14,10 @@ function NavBar(){
                     <span className="text-xl font-bold text-blue-600">Design Scribe</span>
                 </div>
                 <div className="flex gap-2">
-                    <NavLink to="/" className={linkClass} end>About</NavLink>
+                    <NavLink to="/" className={linkClass}>About Us</NavLink>
                     <NavLink to="/members" className={linkClass}>Members</NavLink>
-                    {/*<NavLink to="/clients" className={linkClass}>Clients</NavLink>*/}
+                    <NavLink to="/contact-us" className={linkClass}>Contact us</NavLink>
+                    {/*<NavLink to="/clients" className={linkClass}>Our Clients</NavLink>*/}
                 </div>
             </div>
         </nav>
