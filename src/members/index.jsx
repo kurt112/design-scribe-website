@@ -12,10 +12,18 @@ const team = [
     {
         id: 2,
         name: 'Patrick Semilla',
-        role: 'Sales Lead',
-        bio: 'Leads client acquisition and relationship management.',
-        skills: ['Sales', 'CRM'],
-        avatar: 'https://api.dicebear.com/7.x/initials/svg?seed=Patrick+Semilla'
+        role: 'Lead Quality Assurance',
+        bio: 'Ensures product excellence through rigorous testing and continuous process improvement.',
+        skills: ['Quality Assurance', 'Testing', 'Leadership', 'Efficiency', 'Sales'],
+        avatar: '/team-members-pictures/patrick-picture.jpg'
+    },
+    {
+        id: 3,
+        name: 'Aaron Paul Habel',
+        role: 'Quality Assurance Engineer',
+        bio: 'Delivers reliable products by designing and executing thorough test plans, ensuring quality at every stage of development.',
+        skills: ['Testing', 'Automation', 'Attention to Detail'],
+        avatar: '/team-members-pictures/habel-picture.png'
     },
     // {
     //     id: 3,

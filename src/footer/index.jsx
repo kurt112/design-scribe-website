@@ -22,31 +22,28 @@ export default function Footer() {
                 <p className="text-sm md:text-base max-w-xl opacity-90 leading-relaxed">
                     Crafting resilient interfaces and scalable product foundations with clarity and intention.
                 </p>
-                <div className="mt-8 flex flex-wrap gap-4 text-sm">
-                    <div>
-                         <span className="px-3 py-1 rounded-full bg-white/10 backdrop-blur border border-white/20 mr-1">
-                        UI/UX
-                    </span>
-                        <span className="px-3 py-1 rounded-full bg-white/10 backdrop-blur border border-white/20 mr-1">
-            Engineering
-          </span>
-                        <span className="px-3 py-1 rounded-full bg-white/10 backdrop-blur border border-white/20 mr-1">
-            Product
-          </span>
-                        <span className="px-3 py-1 rounded-full bg-white/10 backdrop-blur border border-white/20 mr-1">
-            Data
-          </span>
-                        <span className="px-3 py-1 rounded-full bg-white/10 backdrop-blur border border-white/20 mr-1">
-            Consulting
-          </span>
-                        <span className="px-3 py-1 rounded-full bg-white/10 backdrop-blur border border-white/20 mr-1">
-            AI
-          </span>
-                        <span className="px-3 py-1 rounded-full bg-white/10 backdrop-blur border border-white/20 mr-1">
-            Machine Learning
-          </span>
-                    </div>
-
+                <div className="mt-8 flex flex-wrap  gap-2 text-sm">
+                  <span className="px-3 py-1 rounded-full bg-white/10 border border-white/20 mr-1">
+                             UI/UX
+                         </span>
+                    <span className="px-3 py-1 rounded-full bg-white/10 border border-white/20 mr-1">
+                            Engineering
+                        </span>
+                    <span className="px-3 py-1 rounded-full bg-white/10  border border-white/20 mr-1">
+                            Product
+                        </span>
+                    <span className="px-3 py-1 rounded-full bg-white/10  border border-white/20 mr-1">
+                            Data
+                        </span>
+                    <span className="px-3 py-1 rounded-full bg-white/10  border border-white/20 mr-1">
+                            Consulting
+                        </span>
+                    <span className="px-3 py-1 rounded-full bg-white/10  border border-white/20 mr-1">
+                            AI
+                        </span>
+                    <span className="px-3 py-1 rounded-full bg-white/10  border border-white/20 mr-1">
+                            Machine Learning
+                        </span>
                 </div>
                 <div
                     className="mt-10 pt-6 border-t border-white/20 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
