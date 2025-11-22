@@ -4,7 +4,7 @@ const team = [
     {
         id: 1,
         name: 'Kurt Lupin Orioque',
-        role: 'Founder/CEO',
+        role: 'Owner & IT Consultant',
         bio: 'Drives vision, culture, and long term strategy.',
         skills: ['Leadership', 'Growth', 'Technical Skills'],
         avatar: '/team-members-pictures/kurt-picture.jpg'

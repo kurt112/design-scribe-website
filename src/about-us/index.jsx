@@ -82,30 +82,30 @@ export default function AboutUs() {
                 </div>
             </section>
 
-            {/* Timeline */}
-            <section className="max-w-6xl mx-auto mb-24">
-                <h2 className="text-2xl font-bold mb-8 text-gray-800">Journey</h2>
-                <div className="relative">
-                    <div className="absolute left-4 top-0 bottom-0 w-px bg-gradient-to-b from-blue-500 via-indigo-500 to-sky-600" />
-                    <ul className="space-y-10">
-                        {timeline.map(item => (
-                            <li key={item.year} className="flex gap-6">
-                                <div className="relative">
-                                    <div className="mt-1 w-8 h-8 rounded-full flex items-center justify-center bg-gradient-to-br from-blue-600 to-sky-600 text-white text-sm font-semibold shadow">
-                                        {item.year.slice(-2)}
-                                    </div>
-                                </div>
-                                <div className="flex-1">
-                                    <p className="text-sm uppercase tracking-wide text-blue-600 font-semibold">
-                                        {item.year}
-                                    </p>
-                                    <p className="mt-1 text-gray-600 leading-relaxed">{item.text}</p>
-                                </div>
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-            </section>
+            {/*/!* Timeline *!/*/}
+            {/*<section className="max-w-6xl mx-auto mb-24">*/}
+            {/*    <h2 className="text-2xl font-bold mb-8 text-gray-800">Journey</h2>*/}
+            {/*    <div className="relative">*/}
+            {/*        <div className="absolute left-4 top-0 bottom-0 w-px bg-gradient-to-b from-blue-500 via-indigo-500 to-sky-600" />*/}
+            {/*        <ul className="space-y-10">*/}
+            {/*            {timeline.map(item => (*/}
+            {/*                <li key={item.year} className="flex gap-6">*/}
+            {/*                    <div className="relative">*/}
+            {/*                        <div className="mt-1 w-8 h-8 rounded-full flex items-center justify-center bg-gradient-to-br from-blue-600 to-sky-600 text-white text-sm font-semibold shadow">*/}
+            {/*                            {item.year.slice(-2)}*/}
+            {/*                        </div>*/}
+            {/*                    </div>*/}
+            {/*                    <div className="flex-1">*/}
+            {/*                        <p className="text-sm uppercase tracking-wide text-blue-600 font-semibold">*/}
+            {/*                            {item.year}*/}
+            {/*                        </p>*/}
+            {/*                        <p className="mt-1 text-gray-600 leading-relaxed">{item.text}</p>*/}
+            {/*                    </div>*/}
+            {/*                </li>*/}
+            {/*            ))}*/}
+            {/*        </ul>*/}
+            {/*    </div>*/}
+            {/*</section>*/}
 
             {/* CTA */}
             <section className="max-w-5xl mx-auto rounded-3xl p-10 bg-white shadow-md border border-gray-100 text-center">
