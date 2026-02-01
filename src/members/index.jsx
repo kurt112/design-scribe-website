@@ -11,6 +11,14 @@ const team = [
     },
     {
         id: 2,
+        name: 'John Kenneth Bemida',
+        role: 'Chief Sales Officer',
+        bio: ' Analyze market trends, optimize sales processes, and set targets to ensure the company meets its financial goals.',
+        skills: ['Finance', 'Sales', 'Market Analysis', "Finance"],
+        avatar: '/team-members-pictures/kenneth.jpg'
+    },
+    {
+        id: 3,
         name: 'Jea Maureen Geulen',
         role: 'COO',
         bio: 'Drives revenue growth by building strong client relationships and delivering tailored solutions that exceed expectations.',
@@ -18,7 +26,7 @@ const team = [
         avatar: '/team-members-pictures/jea-picture.jpg'
     },
     {
-        id: 3,
+        id: 4,
         name: 'Patrick Semilla',
         role: 'Lead Quality Assurance',
         bio: 'Ensures product excellence through rigorous testing and continuous process improvement.',
@@ -26,21 +34,14 @@ const team = [
         avatar: '/team-members-pictures/patrick-picture.jpg'
     },
     {
-        id: 4,
+        id: 5,
         name: 'Aaron Paul Habel',
         role: 'Quality Assurance Engineer',
         bio: 'Delivers reliable products by designing and executing thorough test plans, ensuring quality at every stage of development.',
         skills: ['Testing', 'Automation', 'Attention to Detail'],
         avatar: '/team-members-pictures/habel-picture.png'
-    }
-    // {
-    //     id: 4,
-    //     name: 'Carlos Reyes',
-    //     role: 'Engineering',
-    //     bio: 'Optimizes performance and delivery pipelines.',
-    //     skills: ['DevOps', 'Performance'],
-    //     avatar: 'https://api.dicebear.com/7.x/initials/svg?seed=Carlos+Reyes'
-    // },
+    },
+
     // {
     //     id: 5,
     //     name: 'Maya Patel',
