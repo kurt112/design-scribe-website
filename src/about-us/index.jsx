@@ -152,7 +152,7 @@ function ProductsTeaser() {
                         </Link>
                     </Reveal>
                 </div>
-                <div className="mt-14 grid gap-6 md:grid-cols-2">
+                <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                     {PRODUCTS.map((p, i) => (
                         <Reveal key={p.id} delay={i * 100}>
                             <Link

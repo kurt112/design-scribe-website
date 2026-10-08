@@ -33,7 +33,7 @@ export const SERVICES = [
         id: 'saas-product',
         icon: 'rocket',
         title: 'Ready-Made SaaS Products',
-        desc: 'Subscribe to our proven platforms — loyalty and membership apps, gym management, and more — set up under your brand in days, not months.',
+        desc: 'Subscribe to our proven platforms — loyalty and membership apps, gym management, basketball leagues, and more — set up under your brand in days, not months.',
         link: { to: '/products', label: 'Browse products' },
     },
     {
@@ -136,6 +136,22 @@ export const PRODUCTS = [
         url: 'https://gym-management-demo.web.app/#/',
         image: '/products/gym-management.jpg',
     },
+    {
+        id: 'courtside',
+        name: 'CourtSide',
+        category: 'Basketball leagues',
+        tagline: 'Run your league like the pros.',
+        desc: 'League software for organizers, clubs, and associations — live scores and pro-style stats for fans, and one place for staff to run schedules, rosters, and game night.',
+        features: [
+            'Live stat tracking from a phone, courtside',
+            'Broadcast-style box scores, standings, and play-by-play',
+            'Shareable player profiles with season stats',
+            'Staff roles for owners, admins, and scorekeepers',
+        ],
+        pricing: 'Free plan available · paid plans from ₱9,990/year',
+        url: 'https://design-scribe-basketball.web.app/',
+        image: '/products/courtside.jpg',
+    },
 ];
 
 export const SEARCH_INDEX = [
@@ -147,6 +163,7 @@ export const SEARCH_INDEX = [
     { label: 'Products', hint: 'Our SaaS products', to: '/products', keywords: 'saas apps product portfolio demo subscribe avail ready-made' },
     { label: 'Membership & Loyalty App', hint: 'Product', to: '/products#membership-app', keywords: 'loyalty rewards stamp card qr cafe clinic shop' },
     { label: 'Gym Management System', hint: 'Product', to: '/products#gym-management', keywords: 'gym fitness rfid attendance classes membership' },
+    { label: 'CourtSide', hint: 'Product', to: '/products#courtside', keywords: 'basketball league sports scores stats box score teams players' },
     { label: 'Members', hint: 'Meet the team', to: '/members', keywords: 'team people staff' },
     { label: 'Contact us', hint: 'Start a project', to: '/contact-us', keywords: 'email quote get started message' },
     { label: 'Privacy Policy', hint: 'Legal', to: '/privacy', keywords: 'privacy data legal' },
