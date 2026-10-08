@@ -121,6 +121,22 @@ export const PRODUCTS = [
         image: '/products/membership-app.jpg',
     },
     {
+        id: 'courtside',
+        name: 'CourtSide By DesignScribe',
+        category: 'Basketball leagues',
+        tagline: 'Run your league like the pros.',
+        desc: 'League software for organizers, clubs, and associations — live scores and pro-style stats for fans, and one place for staff to run schedules, rosters, and game night.',
+        features: [
+            'Live stat tracking from a phone, courtside',
+            'Broadcast-style box scores, standings, and play-by-play',
+            'Shareable player profiles with season stats',
+            'Staff roles for owners, admins, and scorekeepers',
+        ],
+        pricing: 'Free plan available · paid plans from ₱9,990/year',
+        url: 'https://design-scribe-basketball.web.app/',
+        image: '/products/courtside.jpg',
+    },
+    {
         id: 'gym-management',
         name: 'Gym Management System',
         category: 'Fitness operations',
@@ -135,23 +151,7 @@ export const PRODUCTS = [
         pricing: 'Plans from ₱500/month',
         url: 'https://gym-management-demo.web.app/#/',
         image: '/products/gym-management.jpg',
-    },
-    {
-        id: 'courtside',
-        name: 'CourtSide',
-        category: 'Basketball leagues',
-        tagline: 'Run your league like the pros.',
-        desc: 'League software for organizers, clubs, and associations — live scores and pro-style stats for fans, and one place for staff to run schedules, rosters, and game night.',
-        features: [
-            'Live stat tracking from a phone, courtside',
-            'Broadcast-style box scores, standings, and play-by-play',
-            'Shareable player profiles with season stats',
-            'Staff roles for owners, admins, and scorekeepers',
-        ],
-        pricing: 'Free plan available · paid plans from ₱9,990/year',
-        url: 'https://design-scribe-basketball.web.app/',
-        image: '/products/courtside.jpg',
-    },
+    }
 ];
 
 export const SEARCH_INDEX = [
