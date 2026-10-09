@@ -1,0 +1,5 @@
+# robots.txt for DesignScribe
+User-agent: *
+Allow: /
+
+Sitemap: https://design-scribe-website.web.app/sitemap.xml

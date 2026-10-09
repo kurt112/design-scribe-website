@@ -8,6 +8,32 @@ export const COMPANY = {
     },
 };
 
+// Production origin — keep in sync with index.html, public/robots.txt and public/sitemap.xml.
+export const SITE_URL = 'https://design-scribe-website.web.app';
+
+export const PAGE_META = {
+    '/': {
+        title: 'DesignScribe — Custom Software & SaaS Development',
+        description: 'DesignScribe designs, builds, and tests custom software and SaaS products for small businesses through enterprise teams. You describe. We build.',
+    },
+    '/products': {
+        title: 'Ready-Made SaaS Products | DesignScribe',
+        description: 'White-label SaaS platforms — loyalty and membership apps, gym management, and basketball league software — launched under your brand in days.',
+    },
+    '/members': {
+        title: 'Our Team | DesignScribe',
+        description: 'Meet the DesignScribe team of product designers, full-stack engineers, and QA specialists who build your software.',
+    },
+    '/contact-us': {
+        title: 'Contact Us | DesignScribe',
+        description: 'Tell us about your project. Get a scoped plan for custom software, SaaS development, UI/UX design, or QA from DesignScribe.',
+    },
+    '/privacy': {
+        title: 'Privacy Policy | DesignScribe',
+        description: 'How DesignScribe collects, uses, and protects the information you share with us.',
+    },
+};
+
 export const NAV_LINKS = [
     { to: '/', label: 'About Us' },
     { to: '/products', label: 'Products' },
