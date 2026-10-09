@@ -9,7 +9,7 @@ export const COMPANY = {
 };
 
 // Production origin — keep in sync with index.html, public/robots.txt and public/sitemap.xml.
-export const SITE_URL = 'https://design-scribe-website.web.app';
+export const SITE_URL = 'https://design-scribe.com';
 
 export const PAGE_META = {
     '/': {
