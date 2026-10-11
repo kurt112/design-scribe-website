@@ -55,7 +55,7 @@ function NavBar() {
 
                     <div className="hidden items-center gap-1 md:flex">
                         {NAV_LINKS.map(link => (
-                            <NavLink key={link.to} to={link.to} end className={linkClass}>
+                            <NavLink key={link.to} to={link.to} end={link.to === '/'} className={linkClass}>
                                 {({isActive}) => (
                                     <>
                                         {link.label}
@@ -108,7 +108,7 @@ function NavBar() {
                                 <NavLink
                                     key={link.to}
                                     to={link.to}
-                                    end
+                                    end={link.to === '/'}
                                     className={({isActive}) =>
                                         `rounded-xl px-4 py-3 text-base font-medium transition ${
                                             isActive ? 'bg-brand-50 text-brand-700' : 'text-ink-700 hover:bg-ink-50'

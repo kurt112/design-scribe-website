@@ -69,7 +69,7 @@ export default function Products() {
                                     <span className="h-1.5 w-1.5 rounded-full bg-emerald-500"/>
                                     Live · {p.category}
                                 </span>
-                                <h2 className="mt-5 text-3xl font-bold sm:text-4xl">{p.name}</h2>
+                                <h2 className="mt-5 text-3xl font-bold sm:text-4xl"><Link to={`/products/${p.id}`} className="hover:text-brand-700">{p.name}</Link></h2>
                                 <p className="mt-3 text-lg font-medium text-ink-800">{p.tagline}</p>
                                 <p className="mt-4 leading-relaxed text-ink-500">{p.desc}</p>
 
@@ -91,8 +91,8 @@ export default function Products() {
                                         Visit live site
                                         <Icon name="external" className="h-4 w-4"/>
                                     </a>
-                                    <Link to="/contact-us" className="btn-secondary">
-                                        Request a demo
+                                    <Link to={`/products/${p.id}`} className="btn-secondary">
+                                        Features &amp; pricing
                                     </Link>
                                 </div>
                             </Reveal>

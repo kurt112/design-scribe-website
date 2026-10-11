@@ -8,6 +8,11 @@ import ContactUs from "./contact-us/index.jsx";
 import Privacy from "./privacy/index.jsx";
 import Products from "./products/index.jsx";
 import Seo from "./components/Seo.jsx";
+import Services from "./services/index.jsx";
+import ServicePage from "./services/ServicePage.jsx";
+import ProductPage from "./products/ProductPage.jsx";
+import IndustryPage from "./industries/IndustryPage.jsx";
+import NotFound from "./not-found/index.jsx";
 
 function ScrollManager() {
     const {pathname, hash} = useLocation();
@@ -34,11 +39,16 @@ function App() {
             <main className="flex-1">
                 <Routes>
                     <Route path="/" element={<AboutUs/>}/>
+                    <Route path="/services" element={<Services/>}/>
+                    <Route path="/services/:slug" element={<ServicePage/>}/>
                     <Route path="/products" element={<Products/>}/>
+                    <Route path="/products/:slug" element={<ProductPage/>}/>
+                    <Route path="/industries/:slug" element={<IndustryPage/>}/>
                     <Route path="/members" element={<Members/>}/>
                     <Route path="/contact-us" element={<ContactUs/>}/>
                     <Route path="/privacy" element={<Privacy/>}/>
                     {/*<Route path="/clients" element={<Clients/>}/>*/}
+                    <Route path="*" element={<NotFound/>}/>
                 </Routes>
             </main>
             <Footer/>

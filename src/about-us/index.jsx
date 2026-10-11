@@ -156,7 +156,7 @@ function ProductsTeaser() {
                     {PRODUCTS.map((p, i) => (
                         <Reveal key={p.id} delay={i * 100}>
                             <Link
-                                to={`/products#${p.id}`}
+                                to={`/products/${p.id}`}
                                 className="card group block overflow-hidden transition duration-300 hover:-translate-y-1 hover:border-brand-200 hover:shadow-[0_24px_48px_-24px_rgb(15_27_51/0.35)]"
                             >
                                 <div className="overflow-hidden border-b border-ink-100 bg-ink-50">

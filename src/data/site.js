@@ -20,6 +20,10 @@ export const PAGE_META = {
         title: 'Ready-Made SaaS Products | DesignScribe',
         description: 'White-label SaaS platforms — loyalty and membership apps, gym management, and basketball league software — launched under your brand in days.',
     },
+    '/services': {
+        title: 'Software Development Services | DesignScribe',
+        description: 'Custom software, SaaS, web and mobile app development, UI/UX design, and QA for Philippine businesses, from one team.',
+    },
     '/members': {
         title: 'Our Team | DesignScribe',
         description: 'Meet the DesignScribe team of product designers, full-stack engineers, and QA specialists who build your software.',
@@ -36,6 +40,7 @@ export const PAGE_META = {
 
 export const NAV_LINKS = [
     { to: '/', label: 'About Us' },
+    { to: '/services', label: 'Services' },
     { to: '/products', label: 'Products' },
     { to: '/members', label: 'Members' },
     { to: '/contact-us', label: 'Contact us' },
@@ -54,6 +59,7 @@ export const SERVICES = [
         icon: 'layers',
         title: 'SaaS Product Development',
         desc: 'Multi-tenant platforms, subscriptions, and dashboards engineered to scale from your first customer to your ten-thousandth.',
+        link: { to: '/services/saas-development', label: 'Learn more' },
     },
     {
         id: 'saas-product',
@@ -67,18 +73,21 @@ export const SERVICES = [
         icon: 'code',
         title: 'Custom Software',
         desc: 'Web apps, internal tools, and integrations built around how your business actually works — not the other way around.',
+        link: { to: '/services/custom-software-development', label: 'Learn more' },
     },
     {
         id: 'design',
         icon: 'pen',
         title: 'UI/UX Design',
         desc: 'Research-led interfaces and design systems that make complex workflows feel simple and convert visitors into users.',
+        link: { to: '/services/ui-ux-design', label: 'Learn more' },
     },
     {
         id: 'qa',
         icon: 'shield',
         title: 'Quality Assurance',
         desc: 'Dedicated QA engineers, automated test suites, and release checks so every deploy ships with confidence.',
+        link: { to: '/services/quality-assurance', label: 'Learn more' },
     },
 ];
 
@@ -186,10 +195,19 @@ export const SEARCH_INDEX = [
     { label: 'Our Process', hint: 'How we work', to: '/#process', keywords: 'describe design build launch steps' },
     { label: 'Client Stories', hint: 'Testimonials', to: '/#testimonials', keywords: 'reviews clients social proof' },
     { label: 'Core Values', hint: 'What we stand for', to: '/#values', keywords: 'integrity innovation reliability empathy' },
+    { label: 'Services', hint: 'All services', to: '/services', keywords: 'services development offer' },
+    { label: 'Custom Software Development', hint: 'Service', to: '/services/custom-software-development', keywords: 'custom software web system internal tools integration' },
+    { label: 'SaaS Product Development', hint: 'Service', to: '/services/saas-development', keywords: 'saas platform subscription multi-tenant mvp startup' },
+    { label: 'Web App Development', hint: 'Service', to: '/services/web-app-development', keywords: 'web app portal dashboard pwa' },
+    { label: 'Mobile App Development', hint: 'Service', to: '/services/mobile-app-development', keywords: 'mobile app ios android app store' },
+    { label: 'UI/UX Design', hint: 'Service', to: '/services/ui-ux-design', keywords: 'design prototype design system ux ui' },
+    { label: 'Quality Assurance', hint: 'Service', to: '/services/quality-assurance', keywords: 'qa testing automated tests' },
+    { label: 'Software for Clinics', hint: 'Industry', to: '/industries/clinics', keywords: 'dental vet medical clinic patients' },
+    { label: 'Software for Cafés & Retail', hint: 'Industry', to: '/industries/cafes-and-retail', keywords: 'cafe restaurant shop retail loyalty punch card' },
     { label: 'Products', hint: 'Our SaaS products', to: '/products', keywords: 'saas apps product portfolio demo subscribe avail ready-made' },
-    { label: 'Membership & Loyalty App', hint: 'Product', to: '/products#membership-app', keywords: 'loyalty rewards stamp card qr cafe clinic shop' },
-    { label: 'Gym Management System', hint: 'Product', to: '/products#gym-management', keywords: 'gym fitness rfid attendance classes membership' },
-    { label: 'CourtSide', hint: 'Product', to: '/products#courtside', keywords: 'basketball league sports scores stats box score teams players' },
+    { label: 'Membership & Loyalty App', hint: 'Product', to: '/products/membership-app', keywords: 'loyalty rewards stamp card qr cafe clinic shop' },
+    { label: 'Gym Management System', hint: 'Product', to: '/products/gym-management', keywords: 'gym fitness rfid attendance classes membership' },
+    { label: 'CourtSide', hint: 'Product', to: '/products/courtside', keywords: 'basketball league sports scores stats box score teams players' },
     { label: 'Members', hint: 'Meet the team', to: '/members', keywords: 'team people staff' },
     { label: 'Contact us', hint: 'Start a project', to: '/contact-us', keywords: 'email quote get started message' },
     { label: 'Privacy Policy', hint: 'Legal', to: '/privacy', keywords: 'privacy data legal' },
