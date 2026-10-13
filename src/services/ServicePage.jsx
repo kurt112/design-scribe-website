@@ -14,7 +14,7 @@ import {ORGANIZATION_ID} from '../data/seo.js';
 const AUDIENCES = [
     ...INDUSTRY_PAGES.map(i => ({label: i.name, to: `/industries/${i.slug}`})),
     {label: 'Gyms & Fitness', to: '/products/gym-management'},
-    {label: 'Sports Leagues', to: '/products/courtside'},
+    {label: 'Sports Leagues', to: '/products/ds-basketball'},
 ];
 
 export default function ServicePage() {

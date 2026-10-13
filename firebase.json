@@ -6,6 +6,13 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "trailingSlash": false
+    "trailingSlash": false,
+    "redirects": [
+      {
+        "source": "/products/courtside",
+        "destination": "/products/ds-basketball",
+        "type": 301
+      }
+    ]
   }
 }

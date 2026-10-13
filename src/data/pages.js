@@ -57,7 +57,7 @@ export const SERVICE_PAGES = [
             {title: 'Companion mobile apps', desc: 'iOS and Android apps that share the same accounts and data as the web platform.'},
         ],
         faqs: [
-            {q: 'Have you built SaaS products before?', a: 'Yes. We built and operate the Membership & Loyalty App, the Gym Management System, and CourtSide, each with live customers and paid plans.'},
+            {q: 'Have you built SaaS products before?', a: 'Yes. We built and operate the Membership & Loyalty App, the Gym Management System, and DS Basketball, each with live customers and paid plans.'},
             {q: 'Can you help me launch an MVP first?', a: 'Yes. We help you choose the smallest feature set that proves the idea, ship it, and plan the next releases from real usage.'},
         ],
     },
@@ -199,15 +199,16 @@ export const PRODUCT_DETAILS = {
             {q: 'How much does it cost?', a: 'Plans start at ₱500 per month.'},
         ],
     },
-    courtside: {
-        metaTitle: 'CourtSide Basketball League Software | DesignScribe',
-        metaDescription: 'Live stats, box scores, standings, and schedules for basketball leagues, clubs, and associations. Free plan; paid from ₱9,990/year.',
+    'ds-basketball': {
+        metaTitle: 'Basketball League Management App | DS Basketball',
+        metaDescription: 'Automate your basketball league: live stat tracking, instant box scores, standings, and player stats for leagues and clubs. Free plan available.',
         audience: ['League organizers', 'Basketball clubs', 'Sports associations'],
         appCategory: 'SportsApplication',
         offer: {price: '0', note: 'Free plan available; paid plans from ₱9,990/year'},
         faqs: [
+            {q: 'What does DS Basketball automate for my league?', a: 'Scorekeepers log each basket, foul, and substitution on a phone during the game. Box scores, standings, and player season stats update automatically, so nothing needs to be tallied or posted after the final buzzer.'},
             {q: 'Can scorekeepers track stats from a phone?', a: 'Yes. Scorekeepers record live stats from a phone at the court, and fans see box scores and play-by-play as the game happens.'},
-            {q: 'Can different staff have different access?', a: 'Yes. CourtSide has separate roles for owners, admins, and scorekeepers.'},
+            {q: 'Can different staff have different access?', a: 'Yes. DS Basketball has separate roles for owners, admins, and scorekeepers.'},
             {q: 'Is there a free plan?', a: 'Yes. A free plan is available, and paid plans start at ₱9,990 per year.'},
         ],
     },

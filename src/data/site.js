@@ -156,11 +156,11 @@ export const PRODUCTS = [
         image: '/products/membership-app.jpg',
     },
     {
-        id: 'courtside',
-        name: 'CourtSide By DesignScribe',
+        id: 'ds-basketball',
+        name: 'DS Basketball',
         category: 'Basketball leagues',
-        tagline: 'Run your league like the pros.',
-        desc: 'League software for organizers, clubs, and associations — live scores and pro-style stats for fans, and one place for staff to run schedules, rosters, and game night.',
+        tagline: 'Post box scores before you leave.',
+        desc: 'League software for organizers, clubs, and associations. Scorekeepers log every bucket, foul, and sub on a phone, and box scores, standings, and player stats go live on your league’s own site the moment the buzzer sounds.',
         features: [
             'Live stat tracking from a phone, courtside',
             'Broadcast-style box scores, standings, and play-by-play',
@@ -169,7 +169,7 @@ export const PRODUCTS = [
         ],
         pricing: 'Free plan available · paid plans from ₱9,990/year',
         url: 'https://design-scribe-basketball.web.app/',
-        image: '/products/courtside.jpg',
+        image: '/products/ds-basketball.jpg',
     },
     {
         id: 'gym-management',
@@ -207,7 +207,7 @@ export const SEARCH_INDEX = [
     { label: 'Products', hint: 'Our SaaS products', to: '/products', keywords: 'saas apps product portfolio demo subscribe avail ready-made' },
     { label: 'Membership & Loyalty App', hint: 'Product', to: '/products/membership-app', keywords: 'loyalty rewards stamp card qr cafe clinic shop' },
     { label: 'Gym Management System', hint: 'Product', to: '/products/gym-management', keywords: 'gym fitness rfid attendance classes membership' },
-    { label: 'CourtSide', hint: 'Product', to: '/products/courtside', keywords: 'basketball league sports scores stats box score teams players' },
+    { label: 'DS Basketball', hint: 'Product', to: '/products/ds-basketball', keywords: 'basketball league sports scores stats box score teams players courtside' },
     { label: 'Members', hint: 'Meet the team', to: '/members', keywords: 'team people staff' },
     { label: 'Contact us', hint: 'Start a project', to: '/contact-us', keywords: 'email quote get started message' },
     { label: 'Privacy Policy', hint: 'Legal', to: '/privacy', keywords: 'privacy data legal' },
