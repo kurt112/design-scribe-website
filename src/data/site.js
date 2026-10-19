@@ -152,7 +152,7 @@ export const PRODUCTS = [
             'Private member accounts with in-app deletion',
         ],
         pricing: 'Free plan available · paid plans from ₱500/month',
-        url: 'https://membership-web.web.app/',
+        url: 'https://dsmembership.web.app/',
         image: '/products/membership-app.jpg',
     },
     {
@@ -168,7 +168,7 @@ export const PRODUCTS = [
             'Staff roles for owners, admins, and scorekeepers',
         ],
         pricing: 'Free plan available · paid plans from ₱9,990/year',
-        url: 'https://design-scribe-basketball.web.app/',
+        url: 'https://dsbasketball.web.app/',
         image: '/products/ds-basketball.jpg',
     },
     {
