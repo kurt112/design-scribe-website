@@ -152,7 +152,7 @@ export const PRODUCTS = [
             'Private member accounts with in-app deletion',
         ],
         pricing: 'Free plan available · paid plans from ₱500/month',
-        url: 'https://dsmembership.web.app/',
+        url: 'https://membership-web.web.app/',
         image: '/products/membership-app.jpg',
     },
     {
