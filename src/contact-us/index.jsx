@@ -67,7 +67,12 @@ export default function ContactUs() {
                     </ul>
 
                     <div className="mt-10 border-t border-ink-100 pt-8">
-                        <p className="text-sm text-ink-400">Prefer email?</p>
+                        <p className="text-sm text-ink-400">Prefer to talk?</p>
+                        <a href={COMPANY.demoUrl} target="_blank" rel="noopener noreferrer" className="mt-1 inline-flex items-center gap-2 font-semibold text-ink-900 hover:text-brand-600">
+                            <Icon name="clock" className="h-4 w-4"/>
+                            Book a 30-minute demo call
+                        </a>
+                        <p className="mt-5 text-sm text-ink-400">Prefer email?</p>
                         <a href={`mailto:${COMPANY.email}`} className="mt-1 inline-flex items-center gap-2 font-semibold text-ink-900 hover:text-brand-600">
                             <Icon name="mail" className="h-4 w-4"/>
                             {COMPANY.email}

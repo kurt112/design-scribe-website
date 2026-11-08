@@ -6,7 +6,7 @@ import FaqList from '../components/FaqList.jsx';
 import CtaBanner from '../components/CtaBanner.jsx';
 import JsonLd from '../components/JsonLd.jsx';
 import NotFound from '../not-found/index.jsx';
-import {PRODUCTS, SITE_URL} from '../data/site.js';
+import {COMPANY, PRODUCTS, SITE_URL} from '../data/site.js';
 import {PRODUCT_DETAILS} from '../data/pages.js';
 import {ORGANIZATION_ID} from '../data/seo.js';
 
@@ -54,7 +54,10 @@ export default function ProductPage() {
                                     Visit live site
                                     <Icon name="external" className="h-4 w-4"/>
                                 </a>
-                                <Link to="/contact-us" className="btn-secondary">Request a demo</Link>
+                                <a href={COMPANY.demoUrl} target="_blank" rel="noopener noreferrer" className="btn-secondary">
+                                    <Icon name="clock" className="h-4 w-4"/>
+                                    Book a demo
+                                </a>
                             </div>
                         </Reveal>
                         <Reveal delay={120} className="overflow-hidden rounded-2xl border border-ink-100 bg-white shadow-xl">

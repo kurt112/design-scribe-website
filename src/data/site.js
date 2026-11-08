@@ -2,6 +2,7 @@ export const COMPANY = {
     name: 'DesignScribe',
     tagline: 'You Describe. We Build.',
     email: 'designscribe.solution@gmail.com',
+    demoUrl: 'https://calendly.com/designscribe-solution/30min',
     socials: {
         linkedin: '#',
         github: '#',
@@ -209,6 +210,6 @@ export const SEARCH_INDEX = [
     { label: 'Gym Management System', hint: 'Product', to: '/products/gym-management', keywords: 'gym fitness rfid attendance classes membership' },
     { label: 'DS Basketball', hint: 'Product', to: '/products/ds-basketball', keywords: 'basketball league sports scores stats box score teams players courtside' },
     { label: 'Members', hint: 'Meet the team', to: '/members', keywords: 'team people staff' },
-    { label: 'Contact us', hint: 'Start a project', to: '/contact-us', keywords: 'email quote get started message' },
+    { label: 'Contact us', hint: 'Start a project', to: '/contact-us', keywords: 'email quote get started message book demo call meeting calendly' },
     { label: 'Privacy Policy', hint: 'Legal', to: '/privacy', keywords: 'privacy data legal' },
 ];

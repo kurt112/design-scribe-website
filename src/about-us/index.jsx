@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 import Icon from '../components/Icon.jsx';
 import Reveal from '../components/Reveal.jsx';
 import ProductMock from './ProductMock.jsx';
-import {CLIENTS, PROCESS, PRODUCTS, SERVICES, STATS, TESTIMONIALS, TRUST_BADGES, VALUES} from '../data/site.js';
+import {CLIENTS, COMPANY, PROCESS, PRODUCTS, SERVICES, STATS, TESTIMONIALS, TRUST_BADGES, VALUES} from '../data/site.js';
 
 function SectionHeading({eyebrow, title, desc, align = 'center', dark = false}) {
     return (
@@ -46,6 +46,10 @@ function Hero() {
                             Start your project
                             <Icon name="arrow-right" className="h-4 w-4"/>
                         </Link>
+                        <a href={COMPANY.demoUrl} target="_blank" rel="noopener noreferrer" className="btn-secondary px-6 py-3.5 text-base">
+                            <Icon name="clock" className="h-4 w-4"/>
+                            Book a demo
+                        </a>
                         <a href="#process" className="btn-secondary px-6 py-3.5 text-base">
                             <Icon name="play" className="h-5 w-5 text-brand-600"/>
                             See how we work

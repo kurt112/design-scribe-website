@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom';
 import Icon from '../components/Icon.jsx';
 import Reveal from '../components/Reveal.jsx';
-import {PRODUCTS} from '../data/site.js';
+import {COMPANY, PRODUCTS} from '../data/site.js';
 
 function BrowserFrame({product}) {
     return (
@@ -94,6 +94,10 @@ export default function Products() {
                                     <Link to={`/products/${p.id}`} className="btn-secondary">
                                         Features &amp; pricing
                                     </Link>
+                                    <a href={COMPANY.demoUrl} target="_blank" rel="noopener noreferrer" className="btn-secondary">
+                                        <Icon name="clock" className="h-4 w-4"/>
+                                        Book a demo
+                                    </a>
                                 </div>
                             </Reveal>
                         </article>
