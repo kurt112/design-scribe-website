@@ -2,6 +2,10 @@ import {COMPANY} from '../data/site.js';
 
 const SECTIONS = [
     {
+        title: 'Who we are',
+        body: `${COMPANY.name} is the trade name of DesignScribe IT Consultancy, a business name registered in the Philippines with the Department of Trade and Industry (DTI Business Name No. 7934410), owned by Kurt Lupin Concepcion Orioque. Our Data Protection Officer is Kurt Lupin Concepcion Orioque, reachable at ${COMPANY.email}.`,
+    },
+    {
         title: 'Information we collect',
         body: 'When you use our contact or newsletter forms, we collect the details you provide — such as your name, email address, company, and message. We do not sell this information.',
     },
@@ -15,7 +19,11 @@ const SECTIONS = [
     },
     {
         title: 'Your choices',
-        body: `You can ask us to access, correct, or delete the information we hold about you by emailing ${COMPANY.email}.`,
+        body: `You can ask us to access, correct, or delete the information we hold about you by emailing ${COMPANY.email}. Under the Data Privacy Act of 2012 (Republic Act No. 10173) you may also file a complaint with the National Privacy Commission.`,
+    },
+    {
+        title: 'Data breaches',
+        body: 'If a personal data breach puts people at real risk of harm, we notify the National Privacy Commission and the people affected within 72 hours of learning of it, as the Data Privacy Act requires.',
     },
 ];
 
