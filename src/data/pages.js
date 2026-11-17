@@ -212,4 +212,17 @@ export const PRODUCT_DETAILS = {
             {q: 'Is there a free plan?', a: 'Yes. A free plan is available, and paid plans start at ₱9,990 per year.'},
         ],
     },
+    'ds-pickleball': {
+        metaTitle: 'Pickleball League Management App | DS Pickleball',
+        metaDescription: 'Run your pickleball league from a phone: one-tap rally scoring, live scores, standings, brackets, and player stats for clubs and organizers. Free plan available.',
+        audience: ['League organizers', 'Pickleball clubs', 'Schools and associations'],
+        appCategory: 'SportsApplication',
+        offer: {price: '0', note: 'Free plan available; paid plans from ₱1,119/month'},
+        faqs: [
+            {q: 'How does scoring work in DS Pickleball?', a: 'The scorekeeper taps who won each rally. The app keeps the score, the serve, and the server number, and calls the score for you (like "4-2-1"), with undo for mistakes.'},
+            {q: 'Which formats are supported?', a: 'Side-out or rally scoring, singles or doubles, and best of 1, 3, or 5 games to 11, 15, or 21.'},
+            {q: 'Can fans follow matches live?', a: 'Yes. Every league gets its own public page with live scores, rally-by-rally play-by-play, standings, and player profiles.'},
+            {q: 'Is there a free plan?', a: 'Yes. A free plan is available, and paid plans start at ₱1,119 per month.'},
+        ],
+    },
 };
